@@ -1,0 +1,13 @@
+// Literals
+public class literals {
+    public static void main(String[] args) {
+        byte age = 45;
+        char ch = 'A'; // This is actually rule in java write char literals in single quote.
+        float f1 = 7.8f;
+        double d1 = 4.66;
+        boolean a = true;
+        System.out.println(age); 
+        String str = "Avisek";
+        System.out.println(str);
+    }
+}
