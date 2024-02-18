@@ -1,0 +1,24 @@
+
+// Java variables and Datatype
+public class Main {
+    public static void main(String[] args) {
+         System.out.printf("Hello and welcome!");
+     for (int i = 1; i <= 5; i++) {
+System.out.println("the sum of this number is ");
+            int num1= 7;
+            int num2 = 8;
+            int num3 = 9;
+            int sum = num1+ num2+num3;
+
+            System.out.println(sum);
+//            println actually add new line.
+            // - AddTwoNumber // This is pascal case convection . first letter of word is capital
+            // pascal case convection actually use for classes .
+
+
+        }
+    }
+}
+
+            
+            
