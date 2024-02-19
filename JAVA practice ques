@@ -1,0 +1,33 @@
+// QUESTION 1 IS SUM 3 NUMBERS//
+import java.util.Scanner;
+public class practiceset1 {
+    public static void main(String[] args) {
+//        int a = 45;
+//        int b = 56;
+//        int c = 34;
+//        int sum = a+b+c;
+//        System.out.println(sum);
+        //QUESTION 2 - write a program to calculate cgpa using marks of three subjects//
+//          float subject1 = 89;
+//        float subject2 = 87;
+//        float subject3 = 88;
+//        float cgpa = (subject1 + subject2 + subject3 )/30 ;
+//        System.out.println(cgpa );
+//    QUESTION 3 - WRITE A program to ask user name and greet them with hello
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Hi welcome to our website");
+        System.out.println("Please Enter your name?");
+        String str = sc.nextLine();
+        System.out.println("Hello" + str + "have a good day");
+ //  QUESTION-4 - Write a number to detect is it integer or not
+        System.out.println("Enter your number?");
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc.hasNextInt());
+
+
+    }
+
+}
+
+
+
